@@ -46,3 +46,17 @@ img{
     padding: 10px;
     border-radius: 10px;
 }
+.cod1{
+    width: 680px;
+    padding: 30px;
+    margin: 20px;
+}
+.cod1{
+    justify-content: space-between;
+    float: inline-start;
+}
+.conteudo1{
+    padding: 30px;
+    text-align: center;
+    font-size: 22px;
+}
