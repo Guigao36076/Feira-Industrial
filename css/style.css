@@ -12,7 +12,7 @@
     padding: 0px;
 }
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lilita One", sans-serif;
     background-color: #272727;
     color: #fff;
 }
@@ -21,13 +21,12 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    max-width: 1280px;
 }
 img{
     width: 80px;
 }
 .cabecalho{
-    background-color: #2d2d2d;
-    box-shadow: 1px 1px 4px; color: #414141; ;
     height: 3.5em;
     justify-content: space-between;
     padding: 0 10%;
@@ -55,8 +54,136 @@ img{
     justify-content: space-between;
     float: inline-start;
 }
-.conteudo1{
-    padding: 30px;
-    text-align: center;
+#conteudo1{
+    padding: 60px;
+    line-height: 28px;
     font-size: 22px;
+    background-color: #414141;
+}
+.titulo1{
+    color: orange;
+    font-size: 55px;
+}
+.paragrafo1{
+    font-family: "Montserrat Alternates", sans-serif;
+}
+.prog{
+    width: 680px;
+    padding: 30px;
+    margin: 20px;
+    height: 560px;
+}
+.prog{
+    justify-content: space-between;
+    float: inline-end;
+}
+#conteudo2{
+    margin: 100px;
+    padding: 40px;
+    line-height: 28px;
+    font-size: 22px;
+}
+.titulo{
+    color: orange;
+    font-size: 55px;
+    line-height: 55px;
+}
+.paragrafo{
+    font-family: "Montserrat Alternates", sans-serif;
+   
+}
+#conteudo3{
+    background-color: #414141;
+    padding: 60px;
+    line-height: 28px;
+    font-size: 22px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#conteudo4{
+    margin: 100px;
+    padding: 40px;
+    line-height: 28px;
+    font-size: 22px;
+}
+.cod2{
+    justify-content: space-between;
+    float: inline-end;
+    width: 680px;
+    padding: 30px;
+    margin: 20px;
+    height: 560px;
+}
+#conteudo5{
+    background-color: #414141;
+    padding: 60px;
+    line-height: 28px;
+    font-size: 22px;
+    margin: 20px;
+}
+.cod3{
+    justify-content: space-between;
+    float: inline-start;
+    width: 680px;
+    padding: 30px;
+    margin: 20px;
+}
+#conteudo6{
+    margin: 100px;
+    padding: 40px;
+    line-height: 28px;
+    font-size: 22px;
+}
+.cod4{
+    justify-content: space-between;
+    float: inline-end;
+    width: 680px;
+    padding: 30px;
+    margin: 20px;
+    height: 560px;
+}
+#conteudo7{
+    background-color: #414141;
+    padding: 130px;
+    line-height: 28px;
+    font-size: 22px;
+}
+.cod5{
+    justify-content: space-between;
+    float: inline-start;
+    width: 680px;
+    padding: 30px;
+    margin: 20px;
+    height: 560px;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url(https://media.tenor.com/GfSX-u7VGM4AAAAM/coding.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    width: 100%;
+    padding:  70px 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+header.rolagem{
+    background-color: #212121;
+    padding: 20px 4%;
+}
+.banner h1{
+    font-size: 4em;
+}
+.banner h1 span{
+    color: orange;
 }

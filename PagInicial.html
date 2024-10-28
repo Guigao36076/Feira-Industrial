@@ -5,44 +5,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Back End</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-
+    <header id="header">
     <div class="cabecalho">
         <div>
-            <img src="img/logo.png" alt="#">
+            <a href="#"><img src="img/Logo Branco e preto.png" alt=""></a>
         </div>
         <div class="nav">
-            <a href="salario.html" class="fundo" >Salario</a>
-            <a href="#">Função</a>
-            <a href="#">Tema3</a>
+            <a href="#conteudo1">O que é</a>
+            <a href="#conteudo2">Diferença</a>
+            <a href="#conteudo3">Função Principal</a>
             <a href="#">Tema4</a>
         </div>
     </div>
+    </header>
+    
+    <section class="banner">
+        <h1>DESCUBRA O QUE É <span>BACK END</span></h1>
+    </section>
+
+    <script src="menu.js"></script>
     
     <div class="tema1">
         <div>
             <img class="cod1" src="img/Codg.avif" alt="cod">
         </div>
-        <div class="conteudo1">
-            <h2>O que é BACK END?</h2> <br>
-            <p>O back-end é uma parte fundamental do desenvolvimento de aplicativos e sites, pois é responsável por tarefas essenciais como armazenar e processar dados, garantir a segurança dos dados do usuário e permitir que os sites lidem com grandes quantidades de dados: 
-                
-                Armazenar e processar dados:
-                O back-end é responsável por armazenar e processar as informações importantes para os aplicativos e sites. 
-                 
-                Garantir a segurança dos dados do usuário:
-                O back-end é responsável por garantir que as informações confidenciais dos usuários não sejam acessadas por terceiros. 
-                 
-                Permitir que os sites lidem com grandes quantidades de dados:
-                O back-end é essencial para que os sites possam lidar com grandes quantidades de dados e executar funções complexas.  
-                 
-                Proporcionar uma boa experiência ao usuário:
-                O back-end é fundamental para proporcionar uma boa experiência ao usuário, garantindo que o site seja rápido, livre de bugs e seguro em seu acesso. 
-                 
-                O back-end é o código que conecta a internet com o banco de dados, gerencia as conexões dos usuários e alimenta a aplicação web. Ele trabalha em conjunto com o front-end para entregar o produto para o usuário final.</p>
+        <div id="conteudo1">
+            <h2 class="titulo1" >O QUE É BACK END?</h2> <br><br>
+            <p class="paragrafo1">Back-end compreende tudo aquilo que tem por trás de uma aplicação. <br> 
+
+                Pode ficar meio abstrato num primeiro momento, mas pense na seguinte situação: para você usar o Instagram todos os dias, os dados (as informações) do seu perfil, de suas amizades e de suas publicações precisam estar salvos e processados em um banco de dados.
+                Desenvolvedores de Back-end trabalham principalmente para fazer uma ponte entre os dados do navegador rumo ao banco de dados e vice-versa.</p>
         </div>
     </div>
+
+    <div class="tema2">
+        <div>
+            <img class="prog" src="img/Codigo.avif" alt="#">
+        </div>
+    
+    <div id="conteudo2">
+        <h2 class="titulo" >QUAL A DIFERENÇA ENTRE FRONT-END E BACK END?</h2> <br><br>
+        <p class="paragrafo" >A principal diferença entre as duas áreas é que, enquanto o Front-end fica mais perto das pessoas usuárias — especialmente da interface que elas podem interagir, o Back-end fica mais perto dos dados da aplicação.
+
+            Ou seja, enquanto Front-end lida com tudo o que as pessoas podem ver e interagir (como interface, design e animações), o Back-end é o motor oculto, a partir do qual essas funcionalidades podem funcionar.</p>
+    </div>
+    </div>
+
+    <div class="tema3">
+        <div>
+            <img class="cod1" src="img/Codg.avif" alt="cod">
+        </div>
+        <div id="conteudo3">
+            <h2 class="titulo" >FUNÇAO PRINCIPAL</h2> <br><br>
+            <p class="paragrafo">Um Desenvolvedor Back-End é um profissional que trabalha com o desenvolvimento da parte “invisível” de um site ou aplicação web. Enquanto os desenvolvedores front-end são responsáveis por criar a interface visual e interativa que os usuários veem e interagem, os desenvolvedores back-end trabalham nos bastidores, construindo e gerenciando os servidores, bancos de dados e a lógica por trás das funcionalidades.</p>
+        </div>
+    </div>
+    
+    <div class="tema4">
+        <div>
+            <img class="cod2" src="img/Codg.avif" alt="Imagem a definir">
+        </div>
+        <div id="conteudo4">
+            <h2 class="titulo">Linguagens mais usadas no Back-End</h2>
+            <p class="paragrafo">
+                Java é uma linguagem de programação orientada a objetos de alto nível, conhecida por sua portabilidade ("escreva uma vez, execute em qualquer lugar") e robustez. É muito utilizada em sistemas corporativos e em grandes aplicações de missão crítica. <br><br>
+            
+                PHP é uma linguagem de script amplamente usada no desenvolvimento Back-End, especialmente em aplicações web. Ela é famosa por sua simplicidade e capacidade de se integrar facilmente com bancos de dados como MySQL.</p>
+        </div>
+
+        <div class="tema5">
+            <div>
+                <img class="cod3" src="img/Codg.avif" alt="">
+            </div>
+            <div id="conteudo5">
+                <h2 class="titulo">Banco de dados</h2>
+                <p class="paragrafo">O banco de dados é um componente essencial para o desenvolvimento Back-End, pois é o local onde os dados de uma aplicação são armazenados, organizados e manipulados. Bancos de dados permitem o armazenamento persistente de informações, como dados de usuários, transações, produtos e outras informações que são fundamentais para o funcionamento de uma aplicação. Existem diferentes tipos de bancos de dados e tecnologias que podem ser utilizadas dependendo das necessidades da aplicação. Vamos explorar mais detalhes sobre os bancos de dados.</p>
+            </div>
+        </div>
+
+        <div class="tema6">
+            <div>
+                <img class="cod4" src="img/Codigo.avif" alt="">
+            </div>
+            <div id="conteudo6">
+                <h2 class="titulo">Niveis do programador back end</h2>
+                <p class="paragrafo">Estagiário: Adquire experiência prática e conhecimento básico, com supervisão constante. <br>
+                    Júnior: Executa tarefas simples, em fase de aprendizado, e trabalha sob orientação. <br>
+                    Pleno: Trabalha de forma mais independente em tarefas complexas e contribui com o time. <br>
+                    Sênior: Enfrenta desafios avançados, toma decisões estratégicas e orienta outros desenvolvedores. <br>
+                    Arquiteto de Software: Define a arquitetura do sistema e garante sua escalabilidade, performance e segurança.</p>
+            </div>
+        </div>
+
+        <div class="tema7">
+            <div>
+                <img class="cod5" src="img/Codg.avif" alt="">
+            </div>
+            <div id="conteudo7">
+                <h2 class="titulo">MEDIA SALARIAL POR NIVEL</h2>
+                <p class="paragrafo">
+                    Estagio: R$ 1.748,97 <br>
+                    Junior: R$ 4.079,01 <br>
+                    Pleno: R$ 7.850,47 <br>
+                    Sênior: R$ 15.050,46 <br>
+                    Arquiteto de Software: R$ 18.202,92
+                </p>
+            </div>
+        </div>
+
+
+
+    </div>
+
+<!--ACABOU TUDO Q ESTA EMM CIMA-->
+
+<!--Pesquisar o que é Footer-->
+
+
+
 
     
 
