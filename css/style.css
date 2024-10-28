@@ -24,7 +24,7 @@ body{
     max-width: 1280px;
 }
 img{
-    width: 80px;
+    width: 120px;
 }
 .cabecalho{
     height: 3.5em;
@@ -36,7 +36,7 @@ img{
 }
 .nav a{
     text-decoration: none;
-    color: orangered;
+    color: #FC490B;
     transition: 1s;
     font-weight: bold;
 }
@@ -49,6 +49,7 @@ img{
     width: 680px;
     padding: 30px;
     margin: 20px;
+    height: 400px;
 }
 .cod1{
     justify-content: space-between;
@@ -61,11 +62,11 @@ img{
     background-color: #414141;
 }
 .titulo1{
-    color: orange;
+    color: #FC490B;
     font-size: 55px;
 }
 .paragrafo1{
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: Futura Md BT;
 }
 .prog{
     width: 680px;
@@ -84,12 +85,12 @@ img{
     font-size: 22px;
 }
 .titulo{
-    color: orange;
+    color: #FC490B;
     font-size: 55px;
     line-height: 55px;
 }
 .paragrafo{
-    font-family: "Montserrat Alternates", sans-serif;
+    font-family: Futura Md BT;
    
 }
 #conteudo3{
@@ -125,7 +126,7 @@ html{
 .cod3{
     justify-content: space-between;
     float: inline-start;
-    width: 680px;
+    width: 500px;
     padding: 30px;
     margin: 20px;
 }
@@ -138,10 +139,10 @@ html{
 .cod4{
     justify-content: space-between;
     float: inline-end;
-    width: 680px;
+    width: 500px;
     padding: 30px;
     margin: 20px;
-    height: 560px;
+    height: 300px;
 }
 #conteudo7{
     background-color: #414141;
@@ -155,7 +156,7 @@ html{
     width: 680px;
     padding: 30px;
     margin: 20px;
-    height: 560px;
+    height: 450px;
 }
 
 .banner{
@@ -179,11 +180,80 @@ header{
 }
 header.rolagem{
     background-color: #212121;
-    padding: 20px 4%;
+    padding: 5px 4%;
 }
 .banner h1{
     font-size: 4em;
 }
 .banner h1 span{
-    color: orange;
+    color: #FC490B;
 }
+.alunos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    width: 100%;
+}
+
+.aluno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+.alunos img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+.main2{
+    background-color: #272727;
+    margin: 0;
+}
+.etec{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #272727;
+    height: 120px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    background-color: #212121;
+    color: #ffffff; 
+    padding-top: 74px;
+    padding-bottom: 48px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+.prof img{
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+}
+.alinhar{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    padding: 48px;
+    flex-wrap: wrap;
+    background-color: #212121;
+}
+.fim span{
+    color: #FC490B;
+}
+
+
+
+
+
+
